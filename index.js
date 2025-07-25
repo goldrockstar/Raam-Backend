@@ -19,7 +19,7 @@ app.use(express.json()); // To parse JSON request bodies
 app.use(cors()); // To enable CORS
 
 // Database connection
-mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://thangeswaran:thangam1620@cluster0.nehs4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://Raamacademy:Raamacademy2024@cluster0.5908k1n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => {
         console.log('Connected to MongoDB'); // Log if connection is successful
     })
